@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: boboard_left
+    shield: popo_left
   - board: seeeduino_xiao_ble
-    shield: boboard_right
+    shield: popo_right

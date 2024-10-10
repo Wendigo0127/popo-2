@@ -1,17 +1,17 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_BOBOARD_LEFT
+if SHIELD_POPO_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "BOBOARD"
+    default "POPO"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_BOBOARD_LEFT || SHIELD_BOBOARD_RIGHT
+if SHIELD_POPO_LEFT || SHIELD_POPO_RIGHT
 
 config ZMK_SPLIT
     default y
