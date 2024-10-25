@@ -95,9 +95,9 @@
 // | BT2 |     | HOME|     | END |    |                   |  F9  |  F10 |  F11 | F12  |     |      |
 // |     |     |     |     |     |    |                   |      |      |      |      |     |      |
             bindings = <
-&bt BT_CLR      &kp ESC     &kp PG_UP   &kp UP      &kp PG_DN   &none            &kp F1    &kp F2    &kp F3    &kp F4    &kp PSCRN  &none
+&bt BT_CLR      &kp ESC     &kp HOME    &kp UP      &kp END     &none            &kp F1    &kp F2    &kp F3    &kp F4    &kp PSCRN  &none
 &bt BT_SEL 0    &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none            &kp F5    &kp F6    &kp F7    &kp F8    &trans     &none
-&bt BT_SEL 1    &none       &kp HOME    &none       &kp END     &none            &kp F9    &kp F10   &kp F11   &kp F12   &trans     &none
+&bt BT_SEL 1    &none       &kp PG_UP   &none       &kp PG_DN   &none            &kp F9    &kp F10   &kp F11   &kp F12   &trans     &none
 &trans          &trans      &trans      &trans      &trans      &trans           &trans    &trans    &trans    &trans    &trans     &trans
             >;
 
